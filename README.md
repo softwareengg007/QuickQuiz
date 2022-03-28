@@ -63,4 +63,17 @@ General introduction:
  
  https://developer.android.com/studio/?gclid=CjwKCAjwloCSBhAeEiwA3hVo_WaArUEsB6X7SZfrvjpXSyAdeMk_vZdWzqj5767WaN5w9ftU_YvmGRoC-18QAvD_BwE&gclsrc=aw.ds           
 
+ MOUNIKA SIRISON
+ 
+ General introduction:
+ 
+ Here in this project we are making a app which is kind of game it is a anroid application so we are using anroid studio and desing using XML and for coding part of backend we using java.
+ 
+ Technologies:
+ 
+ For this project we are using JAVA and XML
+ 
+ Installations:
+ 
+  This ide i used is android studio we can download through this link :
  
