@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="username_hint">Enter Email</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="sign_in">Login</string>
+    <string name="Register">Register</string>
+    <string name="minimum_password">Password too short</string>
+    <string name="username">Enter UserName</string>
+    <string name="confirmPassword">Confirm Password</string>
+</resources>

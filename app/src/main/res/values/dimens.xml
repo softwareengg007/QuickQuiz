@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_header">27dp</dimen>
+    <dimen name="text_size">15dp</dimen>
+    <dimen name="btn_corner_radius">10dp</dimen>
+    <dimen name="title_size">17dp</dimen>
+    <dimen name="text_small_size">15dp</dimen>
+    <dimen name="text_normal_size">14dp</dimen>
+</resources>
