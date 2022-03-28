@@ -24,7 +24,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.HashMap;
 
 public class RegistrationActivity extends AppCompatActivity {
-//
+
     EditText eusername;
     EditText eemail;
     EditText epassword;

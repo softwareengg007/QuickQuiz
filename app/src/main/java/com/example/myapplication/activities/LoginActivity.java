@@ -28,7 +28,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.HashMap;
 
 public class LoginActivity extends AppCompatActivity {
-//
+
     EditText et_username;
     EditText password_editText;
     Button login_btn;
