@@ -46,3 +46,21 @@ general introduction:
   This ide i used is android studio we can download through this link : 
       
              https://developer.android.com/studio/?gclid=CjwKCAjwloCSBhAeEiwA3hVo_WaArUEsB6X7SZfrvjpXSyAdeMk_vZdWzqj5767WaN5w9ftU_YvmGRoC-18QAvD_BwE&gclsrc=aw.ds           
+
+AKSHITH ANAND PUNJALA
+
+General introduction:
+ For softwrae engeneering project we are designing a Quiz Game In a app where we have regestraction page for new users and login page for existing users we handle data of users from Fire base, For front end we using XML for design and For backend we use java, This app basically a quiz game contains questions and in the last we get answers.
+ 
+ Technologies:
+ 
+ For this project we are using JAVA and XML.
+ 
+  Installations:
+ 
+  This ide i used is android studio we can download through this link :
+ 
+ 
+ https://developer.android.com/studio/?gclid=CjwKCAjwloCSBhAeEiwA3hVo_WaArUEsB6X7SZfrvjpXSyAdeMk_vZdWzqj5767WaN5w9ftU_YvmGRoC-18QAvD_BwE&gclsrc=aw.ds           
+
+ 
