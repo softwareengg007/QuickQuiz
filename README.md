@@ -32,3 +32,17 @@ Installations :
       This ide i used is android studio we can download through this link : 
       
              https://developer.android.com/studio/?gclid=CjwKCAjwloCSBhAeEiwA3hVo_WaArUEsB6X7SZfrvjpXSyAdeMk_vZdWzqj5767WaN5w9ftU_YvmGRoC-18QAvD_BwE&gclsrc=aw.ds           
+SRUTHI CHELEKAM
+
+general introduction:
+ In this we are creating a quiz app where we create a registration page & a login page where we give a mail as username and a password we will do this from a real time database i.e. firebase. for this  we are doing android application. And we use java programming for this app. After logging in to this app the game starts and it will shows the multiple choice questions.At last it will displays the score.
+ 
+ Technologies:
+ 
+ For this project we are using JAVA and XML.
+ 
+ Installations:
+ 
+  This ide i used is android studio we can download through this link : 
+      
+             https://developer.android.com/studio/?gclid=CjwKCAjwloCSBhAeEiwA3hVo_WaArUEsB6X7SZfrvjpXSyAdeMk_vZdWzqj5767WaN5w9ftU_YvmGRoC-18QAvD_BwE&gclsrc=aw.ds           
