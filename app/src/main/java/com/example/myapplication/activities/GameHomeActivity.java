@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.myapplication.R;
 
-public class HomeActivity extends AppCompatActivity {
+public class GameHomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_game_home);
     }
 }
