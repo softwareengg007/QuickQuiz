@@ -1,10 +1,19 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="username_hint">Enter Email</string>
+    <string name="app_name" translatable="false">Quick Quiz</string>
+    <string name="username_hint" translatable="false">Enter Email</string>
     <string name="password_hint">Enter Password</string>
     <string name="sign_in">Login</string>
     <string name="Register">Register</string>
     <string name="minimum_password">Password too short</string>
     <string name="username">Enter UserName</string>
     <string name="confirmPassword">Confirm Password</string>
+    <string name="allthebest">All the Best</string>
+    <string name="start_txt">Start Game</string>
+    <string name="question1">Question 1</string>
+    <string name="qn1">qn1</string>
+    <string name="a_one_one">1</string>
+    <string name="a_one_two">2</string>
+    <string name="a_one_three">3</string>
+    <string name="a_one_four">4</string>
+    <string name="confirm">Confirm</string>
 </resources>

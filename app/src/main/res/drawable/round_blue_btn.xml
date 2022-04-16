@@ -6,7 +6,7 @@ android:shape="rectangle">
     android:bottomRightRadius="@dimen/btn_corner_radius"/>
 <gradient
     android:angle="180"
-    android:startColor="#335139"
-    android:endColor="#335139"
+    android:startColor="@color/colorPrimary"
+    android:endColor="@color/colorPrimary"
     android:type="linear" />
 </shape>

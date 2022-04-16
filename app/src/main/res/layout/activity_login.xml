@@ -25,47 +25,6 @@
             android:background="@color/colorAccent"
             android:orientation="vertical">
 
-            <RadioGroup
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_gravity="end"
-                android:layout_marginRight="10dp"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/usLanguage"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="5dp"
-                    android:buttonTint="@color/white"
-                    android:drawableRight="@drawable/ic_united_states"
-                    android:padding="5dp"
-                    android:textColor="@color/white"/>
-
-                <View
-                    android:layout_width="0.5dp"
-                    android:layout_height="50dp"
-                    android:background="@color/white">
-
-                </View>
-
-                <RadioButton
-                    android:id="@+id/spaLanguage"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="5dp"
-                    android:buttonTint="@color/white"
-                    android:drawableRight="@drawable/ic_spain"
-                    android:padding="5dp"
-                    android:textColor="@color/white">
-
-                </RadioButton>
-
-
-            </RadioGroup>
-
-
-
             <EditText
                 android:id="@+id/et_username"
                 android:layout_width="match_parent"

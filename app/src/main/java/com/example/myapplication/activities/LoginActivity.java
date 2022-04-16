@@ -45,11 +45,6 @@ public class LoginActivity extends AppCompatActivity {
     private DatabaseReference mRootRef;
     private ProgressDialog progressBar;
 
-    RadioButton usLanguage;
-    RadioButton spaLanguage;
-    private Locale myLocale;
-    private Configuration config;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,12 +59,9 @@ public class LoginActivity extends AppCompatActivity {
 
     private void findViews() {
         progressBar = new ProgressDialog(this);
-
         et_username = findViewById(R.id.et_username);
         password_editText = findViewById(R.id.password_editText);
         login_btn = findViewById(R.id.login_btn);
-        usLanguage = findViewById(R.id.usLanguage);
-        spaLanguage = findViewById(R.id.spaLanguage);
 
         register_txt = findViewById(R.id.register_txt);
 
@@ -88,51 +80,6 @@ public class LoginActivity extends AppCompatActivity {
                 loginMethod();
             }
         });
-
-        usLanguage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                changeLocale("en");
-            }
-        });
-
-        spaLanguage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                changeLocale("en");
-            }
-        });
-
-        if(Utilities.getpref(this,"LanguageType","").equals("en")){
-
-
-
-        }else if(Utilities.getpref(this,"LanguageType","").equals("en")){
-
-            
-
-        }
-
-    }
-
-    private void changeLocale(String lang) {
-        if (lang == ""){
-
-        }else {
-            myLocale = new Locale(lang);
-            saveLocale(lang);
-            Locale.setDefault(myLocale);
-            config = new Configuration();
-            config.locale = myLocale;
-            getBaseContext().getResources().updateConfiguration(config,getBaseContext().getResources().getDisplayMetrics());
-
-            Intent i = new Intent(LoginActivity.this,SplashActivity.class);
-            startActivity(i);
-        }
-    }
-
-    private void saveLocale(String lang) {
-        Utilities.savePref(this,"LanguageType",lang);
     }
 
     private void loginMethod() {

@@ -7,12 +7,42 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/quiz"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/quiz"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".activities.GameHomeActivity"></activity>
+        <activity
+            android:name=".activities.TenthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.NinthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EigthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SeventhActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SixthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FifthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FourthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ThirdPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SecondPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FirstPageActivity"
+            android:exported="false" />
+        <activity android:name=".activities.GameHomeActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".activities.RegistrationActivity" />
         <activity android:name=".activities.SplashActivity">
