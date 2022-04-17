@@ -37,6 +37,8 @@ public class EigthActivity extends AppCompatActivity {
         screen_Width = dm.widthPixels;
         screen_height = dm.heightPixels;
 
+
+
     }
 
     @Override
