@@ -16,8 +16,8 @@ public class Utilities {
     public static String Tenth_Ans;
     public static boolean Result_btn_click;
     private int screen_Width, screen_height;
-    public static void savePref(Context context, String key, String value) {
 
+    public static void savePref(Context context, String key, String value) {
         SharedPreferences sharedPref = context.getSharedPreferences("Pref-Values", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPref.edit();
         editor.putString(key, value);
@@ -28,6 +28,18 @@ public class Utilities {
     public static String getpref(Context context, String key, String defaultValue) {
         SharedPreferences sharedPref = context.getSharedPreferences("Pref-Values", Context.MODE_PRIVATE);
         return sharedPref.getString(key, defaultValue);
+    }
+
+    public static void savebooleanPref(Context context, String key, boolean value) {
+        SharedPreferences sharedPref = context.getSharedPreferences("Login_Preferences", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPref.edit();
+        editor.putBoolean(key, value);
+        editor.commit();
+    }
+
+    public static boolean getBooleanPref(Context context, String key, boolean defaultValue) {
+        SharedPreferences sharedPref = context.getSharedPreferences("Login_Preferences", Context.MODE_PRIVATE);
+        return sharedPref.getBoolean(key, defaultValue);
     }
 
 }

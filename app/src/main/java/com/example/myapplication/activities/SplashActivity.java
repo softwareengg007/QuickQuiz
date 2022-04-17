@@ -8,6 +8,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import com.example.myapplication.R;
+import com.example.myapplication.Utilities;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -25,9 +26,17 @@ public class SplashActivity extends AppCompatActivity {
                     synchronized (this) {
                         wait(3000);
 
-                        Intent login = new Intent(SplashActivity.this, LoginActivity.class);
-                        startActivity(login);
-                        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                        if(Utilities.getBooleanPref(SplashActivity.this, "HasLogged_In", false)){
+                            Intent login = new Intent(SplashActivity.this, GameHomeActivity.class);
+                            startActivity(login);
+                            finish();
+                            overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                        }else {
+                            Intent login = new Intent(SplashActivity.this, LoginActivity.class);
+                            startActivity(login);
+                            finish();
+                            overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                        }
                     }
                 } catch (InterruptedException ex) {
 

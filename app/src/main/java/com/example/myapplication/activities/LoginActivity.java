@@ -116,10 +116,19 @@ public class LoginActivity extends AppCompatActivity {
                             Intent intent = new Intent(LoginActivity.this, GameHomeActivity.class);
                             startActivity(intent);
                             overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                            Utilities.savebooleanPref(LoginActivity.this, "HasLogged_In", true);
                         }
                     }
                 });
 
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent exit = new Intent(Intent.ACTION_MAIN);
+        exit.addCategory(Intent.CATEGORY_HOME);
+        exit.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(exit);
     }
 }

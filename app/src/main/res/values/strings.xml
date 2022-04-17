@@ -9,11 +9,82 @@
     <string name="confirmPassword">Confirm Password</string>
     <string name="allthebest">All the Best</string>
     <string name="start_txt">Start Game</string>
-    <string name="question1">Question 1</string>
-    <string name="qn1">qn1</string>
-    <string name="a_one_one">1</string>
-    <string name="a_one_two">2</string>
-    <string name="a_one_three">3</string>
-    <string name="a_one_four">4</string>
     <string name="confirm">Confirm</string>
+    <string name="submit">Submit</string>
+    <string name="confirm_txt">Confirm</string>
+
+
+    <string name="question1">Question 1/10</string>
+    <string name="question2">Question 2/10</string>
+    <string name="question3">Question 3/10</string>
+    <string name="question4">Question 4/10</string>
+    <string name="question5">Question 5/10</string>
+    <string name="question6">Question 6/10</string>
+    <string name="question7">Question 7/10</string>
+    <string name="question8">Question 8/10</string>
+    <string name="question9">Question 9/10</string>
+    <string name="question10">Question 10/10</string>
+
+    <string name="question_one">The world’s longest land border between the two countries is the border between</string>
+    <string name="a_one_one">India and Pakistan</string>
+    <string name="a_one_two">US and Mexico</string>
+    <string name="a_one_three">US and Canada</string>
+    <string name="a_one_four">South Korea and North Korea</string>
+
+    <string name="question_two">Which from the following is NOT a common symptom of Covid-19 infection?</string>
+    <string name="a_two_one">Headache</string>
+    <string name="a_two_two">Fever</string>
+    <string name="a_two_three">Tiredness</string>
+    <string name="a_two_four">Dry cough</string>
+
+    <string name="question_three">The total area of these 7 continents is about</string>
+    <string name="a_three_one">118million km sq</string>
+    <string name="a_three_two">128million km sq</string>
+    <string name="a_three_three">138million km sq</string>
+    <string name="a_three_four">148million km sq</string>
+
+    <string name="question_four">The first European to reach India by sea was</string>
+    <string name="a_four_one">Christopher Columbus</string>
+    <string name="a_four_two">Vasco da Gama</string>
+    <string name="a_four_three">Marco Polo</string>
+    <string name="a_four_four">John Cabot</string>
+
+    <string name="question_five">The World Wide Web was invented by</string>
+    <string name="a_five_one">Tim Berners-Lee</string>
+    <string name="a_five_two">Bob Kahn</string>
+    <string name="a_five_three">Steve Jobs</string>
+    <string name="a_five_four">Bill Gates</string>
+
+    <string name="question_six">The world’s largest island is</string>
+    <string name="a_six_one">Indonesia</string>
+    <string name="a_six_two">Finland</string>
+    <string name="a_six_three">Greenland</string>
+    <string name="a_six_four">United Kingdom</string>
+
+    <string name="question_seven">Which country is also called the “Land of the Midnight Sun”?</string>
+    <string name="a_seven_one">Japan</string>
+    <string name="a_seven_two">Norway</string>
+    <string name="a_seven_three">Netherlands</string>
+    <string name="a_seven_four">South Africa</string>
+
+    <string name="question_eight">What are the two major parties in the US?</string>
+    <string name="a_eight_one">Republics and Socialists</string>
+    <string name="a_eight_two">Conservationists and Democrats</string>
+    <string name="a_eight_three">Republicans and Democrats</string>
+    <string name="a_eight_four">Democrats and Socialists</string>
+
+    <string name="question_nine">How many states are there in the US?</string>
+    <string name="a_nine_one">49</string>
+    <string name="a_nine_two">55</string>
+    <string name="a_nine_three">50</string>
+    <string name="a_nine_four">51</string>
+
+    <string name="question_ten">Who was the first person to walk on the moon?</string>
+    <string name="a_ten_one">John Glenn</string>
+    <string name="a_ten_two">Jim Lowell</string>
+    <string name="a_ten_three">Neil Armstrong</string>
+    <string name="a_ten_four">James E. Atwater</string>
+    <string name="confirm_alert">Confirm Alert</string>
+    <string name="confirm_answer">Are you sure you want to confirm this answer</string>
+    <string name="no">No</string>
 </resources>

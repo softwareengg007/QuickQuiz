@@ -3,13 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_cancel.xml" value="0.1635" />
         <entry key="app/src/main/res/drawable/round_blue_btn.xml" value="0.151" />
         <entry key="app/src/main/res/drawable/round_blue_btn_bg.xml" value="0.151" />
-        <entry key="app/src/main/res/layout/activity_first_page.xml" value="0.17620939926194995" />
-        <entry key="app/src/main/res/layout/activity_game_home.xml" value="0.25617826157721924" />
+        <entry key="app/src/main/res/layout/activity_eigth.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/activity_fifth.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/activity_first_page.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_fourth.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/activity_game_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.15282135009765624" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19739583333333333" />
+        <entry key="app/src/main/res/layout/activity_ninth.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/activity_second_page.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_seventh.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/activity_sixth.xml" value="0.2833333333333333" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1947463768115942" />
+        <entry key="app/src/main/res/layout/activity_tenth.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/activity_third_page.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/confirm_popup.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/exit_popup.xml" value="0.2833333333333333" />
       </map>
     </option>
   </component>
