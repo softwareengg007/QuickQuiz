@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".activities.ResultActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.TenthActivity"
             android:exported="false" />
         <activity
@@ -45,7 +48,8 @@
         <activity android:name=".activities.GameHomeActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".activities.RegistrationActivity" />
-        <activity android:name=".activities.SplashActivity">
+        <activity android:name=".activities.SplashActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

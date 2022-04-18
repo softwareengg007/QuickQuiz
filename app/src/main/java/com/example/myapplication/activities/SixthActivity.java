@@ -163,7 +163,7 @@ public class SixthActivity extends AppCompatActivity implements View.OnClickList
                 Intent tosecond = new Intent(SixthActivity.this, SeventhActivity.class);
                 startActivity(tosecond);
                 overridePendingTransition(R.anim.enter_from_right, R.anim.exit_from_right);
-                Utilities.Fifth_Ans = radioButton.getText().toString();
+                Utilities.Sixth_Ans = radioButton.getText().toString();
             } else {
                 Toast.makeText(getApplicationContext(), "Please choose your option", Toast.LENGTH_SHORT).show();
                 confirmdialog.dismiss();

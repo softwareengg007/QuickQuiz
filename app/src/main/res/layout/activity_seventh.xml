@@ -47,7 +47,7 @@
                         android:padding="10dp">
 
                         <TextView
-                            android:id="@+id/second_answer"
+                            android:id="@+id/seventh_answer"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_marginTop="10dp"
@@ -90,7 +90,7 @@
                             android:layout_height="15dp"></View>
 
                         <RadioGroup
-                            android:id="@+id/radioGroup_first_question"
+                            android:id="@+id/radioGroup_seventh_question"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
 
@@ -128,7 +128,7 @@
                         </RadioGroup>
 
                         <Button
-                            android:id="@+id/confirm_first"
+                            android:id="@+id/confirm_seventh"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
